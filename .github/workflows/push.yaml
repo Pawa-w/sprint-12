@@ -48,7 +48,7 @@ jobs:
       - id: meta
         uses: docker/metadata-action@v5
         with:
-          images: pawa-w/sprint-12
+          images: pawa00/sprint-12
           tags: |
             type=ref,event=tag
           labels: |
